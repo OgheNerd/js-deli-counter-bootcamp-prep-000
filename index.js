@@ -21,6 +21,6 @@ function currentLine(line, person) {
   const numberName =  []
 
   for (let i = 0; l = line.length; i < l; i++) {
-    // return `The line is currently: ${}`
+    numberName.push(`${i + 1}. ${line[i]}`)
   }
 }
