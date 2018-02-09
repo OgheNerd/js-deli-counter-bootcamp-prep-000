@@ -3,3 +3,10 @@ function takeANumber(line, person) {
 
   return `Welcome, ${person}. You are number ${line.length} in line.`
 }
+
+
+function nowServing(line) {
+  if (!line.length) {
+    return `There is nobody waiting to be served!`
+  }
+}
