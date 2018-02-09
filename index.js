@@ -19,6 +19,6 @@ function currentLine(line, person) {
   }
 
   for (var i = 0; i < line.length; i++) {
-    return `The line is currently: ${}`
+    // return `The line is currently: ${}`
   }
 }
