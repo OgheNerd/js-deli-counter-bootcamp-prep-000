@@ -17,8 +17,8 @@ function currentLine(line, person) {
   if (!line.length) {
     return `The line is currently empty.`
   }
-
-  for (var i = 0; i < line.length; i++) {
+  
+  for (let i = 0; l = line.length; i < l; i++) {
     // return `The line is currently: ${}`
   }
 }
