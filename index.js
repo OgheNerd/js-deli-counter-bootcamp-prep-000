@@ -12,3 +12,9 @@ function nowServing(line, person) {
 
   return `Currently serving ${line.shift(person)}.`
 }
+
+function currentLine(line, person) {
+  if (!line.length) {
+    return `The line is currently empty.`
+  }
+}
